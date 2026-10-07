@@ -54,7 +54,7 @@ public class CupomService {
             String hash = UUID.randomUUID().toString().substring(0, 8).toUpperCase();
 
             Cupom cupom = Cupom.builder()
-                    .codigo("CDL-" + hash)
+                    .codigo("EMPRESA-" + hash)
                     .cliente(cliente)
                     .loja(loja)
                     .funcionario(funcionario)

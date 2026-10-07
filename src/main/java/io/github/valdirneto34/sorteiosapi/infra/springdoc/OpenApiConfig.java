@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "CDL - Sistema de Gestão de Campanhas e Sorteios",
+                title = "Sistema de Gestão de Campanhas e Sorteios",
                 version = "v1",
                 description = "API RESTful para gestão de afiliados, funcionários, controle de cotas e emissão de cupons com conformidade LGPD.",
                 contact = @Contact(
